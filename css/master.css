@@ -21,7 +21,7 @@ body {
   background-color: #fff;
   width: 200px;
   min-height: 100vh;
-  z-index: 999;
+  z-index: 1001;
   transition: 0.3s;
   border: 1px solid #eee;
 }
@@ -171,6 +171,7 @@ body {
   background-image: url(../imgs/01.jpg);
   background-size: cover;
   position: relative;
+  transition: all 1.8s ease-in;
 }
 .landing-page .overlay {
   background-color: rgba(0, 0, 0, 0.4);

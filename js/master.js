@@ -130,7 +130,7 @@ function randomizeImgs() {
     // Change Background Image Url
     landingPage.style.backgroundImage = 'url("imgs/' + imgsArray[randomNumber] + '")';
     
-    }, 5000);
+    }, 4000);
 
   }
   
@@ -397,3 +397,5 @@ theLinks.onclick = function (e) {
   e.stopPropagation();
 
 }
+
+easy_background(".landing-page", 4000, "01.jpg", 4000, "02.jpg", 4000, "03.jpg", 4000, "04.jpg", 4000, "05.jpg");
